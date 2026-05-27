@@ -14,7 +14,7 @@ from folium.plugins import MarkerCluster
 # 반드시 REST API 키 사용
 # JavaScript 키 사용 금지
 
-KAKAO_API_KEY = "e2476f6d5b4c7e1c3e550e59f6154114"
+KAKAO_API_KEY = st.secrets["e2476f6d5b4c7e1c3e550e59f6154114"]
 
 # =========================================================
 # 기본 설정
